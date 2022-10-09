@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-#tabla clientes
+#tablas clientes
 
 class clientes(models.Model):
     cedula = models.BigAutoField(auto_created = True, primary_key = True, serialize = False, verbose_name = 'CEDULA')                
