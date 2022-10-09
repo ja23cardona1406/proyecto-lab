@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'prueba.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-
+#Enlace a la base de datos
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
