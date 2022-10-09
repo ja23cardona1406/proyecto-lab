@@ -159,7 +159,7 @@ def  stockk(self):
 def ______str_______(self):
     return self.stockk()
 
-#tabla provedores 
+#Tabla proveedores
 
 class  provedores(models.Model):
     maderas_SAS = models.BigAutoField(auto_created = True, primary_key = True, serialize = False, verbose_name = 'empresa maderas sas ')                
