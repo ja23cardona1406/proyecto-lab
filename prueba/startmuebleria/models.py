@@ -144,8 +144,7 @@ def _____str_______(self):
     return self.productoss()
 
 
-#tabla Stock 
-
+#Tabla Stock
 
 class  stock(models.Model):
     disponibilidad_productos = models.BigAutoField(auto_created = True, primary_key = True, serialize = False, verbose_name = 'disponibilidad de los productos ')                
